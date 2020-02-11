@@ -1,0 +1,27 @@
+{
+  "name": "sample-node-service",
+  "version": "1.0.0",
+  "description": "This is a bare bones hello world for testing with Codepipeline.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "micro-dev src",
+    "prod": "micro src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olmesm/sample-node-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olmesm/sample-node-service/issues"
+  },
+  "homepage": "https://github.com/olmesm/sample-node-service#readme",
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  },
+  "dependencies": {
+    "micro": "^9.3.4"
+  }
+}
