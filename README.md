@@ -5,12 +5,17 @@ This is a bare bones hello world for testing with Codepipeline.
 ## Development
 
 ```sh
+# Setup nvm and yarn
 nvm use
-
 npm i -g yarn
 
-yarn install
+# Alternatively via docker
+docker run --rm -it -p 3000:3000 -v $(pwd):/usr/app -w /usr/app node:12-alpine sh
 
+# Install dependencies
+yarn
+
+# Start the dev server w/hot-reload
 yarn start
 ```
 
