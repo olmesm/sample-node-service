@@ -12,8 +12,8 @@
     "url": "git+https://github.com/olmesm/sample-node-service.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Oliver Smit <github.com/olmesm>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/olmesm/sample-node-service/issues"
   },
