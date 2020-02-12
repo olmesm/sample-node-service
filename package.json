@@ -20,7 +20,7 @@
   "homepage": "https://github.com/olmesm/sample-node-service#readme",
   "devDependencies": {
     "micro-dev": "^3.0.0",
-    "prettier": "latest"
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "micro": "^9.3.4"
