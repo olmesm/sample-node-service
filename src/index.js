@@ -1,1 +1,1 @@
-module.exports = () => "Welcome to Micro1";
+module.exports = () => "Hello World";
